@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-char* concat(char* string1, char* string2){
+char* concat(char* string1, char* string2) {
 	size_t s1 = strlen(string1); //first string length
 	size_t s2 = strlen(string2); //second string length
 	
