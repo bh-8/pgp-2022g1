@@ -2,3 +2,7 @@
 !c/Makefile
 !*.c
 !*.md
+!*.java
+!*.iml
+!*.xml
+!java/.idea/.name
