@@ -20,5 +20,5 @@
 2. [Kapselung von Methoden](./markdown/a032.md)
 3. [Garbage Collection](./markdown/a033.md)
 4. [instanceof Ersetzung ](./java/src/blatt3/instanceof_ersetzung)
-5. [PGP-Buttons](./java/src/blatt3/liskov_prinzip)
-6. [Anwendung des Liskov-Prinzips](./java/src/blatt3/pgp_buttons)
+5. [PGP-Buttons](./java/src/blatt3/pgp_buttons)
+6. [Anwendung des Liskov-Prinzips](./java/src/blatt3/liskov_prinzip)
