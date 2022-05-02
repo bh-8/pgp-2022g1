@@ -15,3 +15,10 @@
 4. [Anagramm](./c/anagram.c)
 5. [Konkatenieren von Strings](./c/concat.c)
 6. [Dynamisches Array](./c/dynamic_array.c)
+### Blatt 3
+1. [Objektinstanziierung](./markdown/a031.md)
+2. [Kapselung von Methoden](./markdown/a032.md)
+3. [Garbage Collection](./markdown/a033.md)
+4. [instanceof Ersetzung ](./java/src/blatt3/instanceof_ersetzung)
+5. [PGP-Buttons](./java/src/blatt3/liskov_prinzip)
+6. [Anwendung des Liskov-Prinzips](./java/src/blatt3/pgp_buttons)
