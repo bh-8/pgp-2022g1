@@ -1,6 +1,8 @@
 package blatt4.bintreetraversal;
 
+import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
 class BinaryTree<T> {
     private T _value;
@@ -62,20 +64,17 @@ class BinTreeTraversal {
         root.setRight(new BinaryTree<Integer>(3));
 
         // Your implementation should be able to perform a for each with the given syntax
+        System.out.println("Inorder:");
         for (int item : new InorderIterable<Integer>(root)) {
+            System.out.println(item);
+        }
+        System.out.println("Preorder:");
+        for (int item : new PreorderIterable<Integer>(root)) {
             System.out.println(item);
         }
     }
 }
 
-/*
-    TODO:
-
-    Your part starts here implement your chosen traversal strategies e.g. a
-
-        InorderIterable(compliant to the Iterable interface(https://docs.oracle.com/javase/8/docs/api/java/lang/Iterable.html?is-external=true#iterator--)), which creates an InorderIterator (compliant to the Iterator interface(https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html))
-
- */
 class InorderIterable<T> implements Iterable<T> {
     BinaryTree<T> root;
     Iterator<T> iterator;
@@ -86,6 +85,7 @@ class InorderIterable<T> implements Iterable<T> {
         this.iterator = new Iterator<T>() {
             BinaryTree<T> next = root;
             {
+                //Go as far left as possible
                 while(next.getLeft() != null) {
                     next = next.getLeft();
                 }
@@ -100,27 +100,78 @@ class InorderIterable<T> implements Iterable<T> {
             public T next() {
                 assert(hasNext());
 
-                BinaryTree<T> tmp = next;
+                T currentValue = next.getValue();
 
+                //if there is an element on the right
                 if(next.getRight() != null) {
                     next = next.getRight();
-                    while (next.getLeft() != null) {
+
+                    //go down the right tree
+                    while(next.getLeft() != null) {
                         next = next.getLeft();
                     }
-                    return tmp.getValue();
+                    return currentValue;
                 }
 
                 while(true) {
-                    if(next.getParent() != null) {
+                    //if no parents
+                    if(next.getParent() == null) {
                         next = null;
-                        return tmp.getValue();
+                        return currentValue;
                     }
+
+                    //go up
                     if(next.getParent().getLeft() == next) {
                         next = next.getParent();
-                        return tmp.getValue();
+                        return currentValue;
                     }
+
                     next = next.getParent();
                 }
+            }
+        };
+    }
+
+    @Override
+    public Iterator<T> iterator() {
+        assert(this.iterator != null);
+        return this.iterator;
+    }
+}
+
+class PreorderIterable<T> implements Iterable<T> {
+    BinaryTree<T> root;
+    Iterator<T> iterator;
+
+    public PreorderIterable(BinaryTree<T> root) {
+        this.root = root;
+        this.iterator = new Iterator<T>() {
+            private List<T> order;
+            private int index;
+            {
+                this.order = new ArrayList<>();
+                this.index = 0;
+                this.preorder(root);
+            }
+
+            private void preorder(BinaryTree<T> tree) {
+                this.order.add(tree.getValue());
+                if(tree.getLeft() != null) {
+                    preorder(tree.getLeft());
+                }
+                if(tree.getRight() != null) {
+                    preorder(tree.getRight());
+                }
+            }
+            @Override
+            public boolean hasNext() {
+                return this.index < this.order.size();
+            }
+
+            @Override
+            public T next() {
+                assert(hasNext());
+                return this.order.get(index++);
             }
         };
     }
