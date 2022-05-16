@@ -34,5 +34,5 @@
 2. [Rekursion](./markdown/a052.md)
 3. [Funktionen höherer Ordnung](./markdown/a053.md)
 4. [Iterable und Funktionen höherer Ordnung in Scala](./scala/src/blatt5/Persons.scala)
-5. [Prozedural zu Funktional - CharacterTree](./scala/src/blatt5/charactertree)
+5. [Prozedural zu Funktional - CharacterTree](./scala/src/blatt5/CharacterTree.scala)
 6. [Primzahlen und Gemeinsamer Teiler](./scala/src/blatt5/Numbers.scala)
