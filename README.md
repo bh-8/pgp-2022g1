@@ -29,3 +29,10 @@
 4. [Abstrakte Klasse/Interface - Binärbaum traversieren](./java/src/blatt4/bintreetraversal)
 5. [Generische Verkettete Listen](./java/src/blatt4/generische_verkettete_listen)
 6. [Dekorierte Logger](./java/src/blatt4/dekorierte_logger)
+### Blatt 5
+1. [Kontext und Seiteneffekte](./java/src/blatt5/Functional.java)
+2. [Rekursion](./markdown/a052.md)
+3. [Funktionen höherer Ordnung](./markdown/a053.md)
+4. [Iterable und Funktionen höherer Ordnung in Scala](./scala/src/blatt5/Persons.scala)
+5. [Prozedural zu Funktional - CharacterTree](./scala/src/blatt5/charactertree)
+6. [Primzahlen und Gemeinsamer Teiler](./scala/src/blatt5/Numbers.scala)
