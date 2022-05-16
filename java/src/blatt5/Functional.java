@@ -6,31 +6,27 @@ public class Functional {
     public static final int DEC = 2;
     public static final int HEX = 3;
 
-    public static void print(int number, int codec) {
+    public static String numFormat(int number, int codec) {
         switch(codec){
             case BIN:
-                System.out.format("0b%s\n", Integer.toBinaryString(number));
-                return;
+                return String.format("0b%s\n", Integer.toBinaryString(number));
             case OCT:
-                System.out.format("0o%s\n", Integer.toOctalString(number));
-                return;
+                return String.format("0o%s\n", Integer.toOctalString(number));
             case DEC:
-                System.out.format("%d\n", number);
-                return;
+                return String.format("%d\n", number);
             case HEX:
-                System.out.format("0x%s\n", Integer.toHexString(number));
-                return;
+                return String.format("0x%s\n", Integer.toHexString(number));
             default:
-                System.err.format("unknown codec '%d'\n", codec);
+                return String.format("unknown codec '%d'\n", codec);
         }
     }
 
     public static void main(String[] args) {
-        print(0, DEC);
-        print(1337, BIN);
-        print(1337, OCT);
-        print(1337, DEC);
-        print(1337, HEX);
+        System.out.print(numFormat(0, DEC));
+        System.out.print(numFormat(1337, BIN));
+        System.out.print(numFormat(1337, OCT));
+        System.out.print(numFormat(1337, DEC));
+        System.out.print(numFormat(1337, HEX));
     }
 
     /**
