@@ -1,11 +1,13 @@
+package blatt5;
+
 import java.time.LocalDate;
 import java.time.Period;
 
 class Person(
-  val firstname: String,
-  val lastname: String,
-  val dayOfBirth: LocalDate
-) {
+              val firstname: String,
+              val lastname: String,
+              val dayOfBirth: LocalDate
+            ) {
   override def toString(): String = {
     firstname + " " + lastname
   }
