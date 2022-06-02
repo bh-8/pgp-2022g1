@@ -36,3 +36,10 @@
 4. [Iterable und Funktionen höherer Ordnung in Scala](./scala/src/blatt5/Persons.scala)
 5. [Prozedural zu Funktional - CharacterTree](./scala/src/blatt5/CharacterTree.scala)
 6. [Primzahlen und Gemeinsamer Teiler](./scala/src/blatt5/Numbers.scala)
+### Blatt 6
+1. [Scala Case Classes](./markdown/a061.md)
+2. [Statische vs. Dynamische Typisierung](./markdown/a062.md)
+3. [Traits vs. Interfaces](./markdown/a063.md)
+4. [Currying](./scala/src/blatt6/Currying.scala)
+5. [Rocket Science!](./scala/src/blatt6/Rockets.scala)
+6. [BubbleSort - Rekursiv](./scala/src/blatt6/BubbleSort.scala)
