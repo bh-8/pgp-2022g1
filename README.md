@@ -43,3 +43,12 @@
 4. [Currying](./scala/src/blatt6/Currying.scala)
 5. [Rocket Science!](./scala/src/blatt6/Rockets.scala)
 6. [BubbleSort - Rekursiv](./scala/src/blatt6/BubbleSort.scala)
+### Blatt 7
+1. [Lazy Evaluation](./markdown/a071.md)
+2. [Structural Sharing](./markdown/a072.md)
+3. [Streams](./markdown/a073.md)
+4. [Funktionslisten](./scala/src/blatt7/Applier.scala)
+5. [Flattening of Lists (with Beer)](./scala/src/blatt7/Beers.scala)
+6. [Zahlenfolgen mit Streams](./scala/src/blatt7/Zahlenfolgen.scala)
+7. [Pattern Matching](./scala/src/blatt7/Matcher.scala)
+8. [Folding](./scala/src/blatt7/Folding.scala)
