@@ -5,4 +5,4 @@
 !*.java
 !*.iml
 !*.xml
-!java/.idea/.name
+!*.scala
