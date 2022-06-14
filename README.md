@@ -59,3 +59,12 @@
 4. [Binärbaum mit Cut-Fail](./prolog/blatt8/tree.pl)
 5. [Regeln für Listen](./prolog/blatt8/lists.pl)
 6. [Logikrätsel](./prolog/blatt8/riddle.pl)
+### Blatt 9
+1. [Markdown Task 1](./markdown/a091.md)
+2. [Markdown Task 2](./markdown/a092.md)
+3. [Markdown Task 3](./markdown/a093.md)
+4. [Prolog Task 1](./prolog/blatt9/_empty.pl)
+5. [Prolog Task 2](./prolog/blatt9/_empty.pl)
+6. [Prolog Task 3](./prolog/blatt9/_empty.pl)
+### Blatt 10
+- ...
