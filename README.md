@@ -52,3 +52,10 @@
 6. Zahlenfolgen mit Streams
 7. Pattern Matching
 8. [Folding](./scala/src/blatt7/Folding.scala)
+### Blatt 8
+1. [Unifizierbarkeit](./markdown/a081.md)
+2. [Cut und Cut-Fail](./markdown/a082.md)
+3. [SLD-Resolution](./markdown/a083.md)
+4. [Binärbaum mit Cut-Fail](./prolog/blatt8/tree.pl)
+5. [Regeln für Listen](./prolog/blatt8/lists.pl)
+6. [Logikrätsel](./prolog/blatt8/riddle.pl)
