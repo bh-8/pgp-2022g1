@@ -54,17 +54,22 @@
 8. [Folding](./scala/src/blatt7/Folding.scala)
 ### Blatt 8
 1. [Unifizierbarkeit](./markdown/a081.md)
-2. [Cut und Cut-Fail](./markdown/a082.md)
-3. [SLD-Resolution](./markdown/a083.md)
-4. [Binärbaum mit Cut-Fail](./prolog/blatt8/tree.pl)
-5. [Regeln für Listen](./prolog/blatt8/lists.pl)
-6. [Logikrätsel](./prolog/blatt8/riddle.pl)
+2. Cut und Cut-Fail
+3. SLD-Resolution
+4. Binärbaum mit Cut-Fail
+5. Regeln für Listen
+6. Logikrätsel
 ### Blatt 9
-1. [Markdown Task 1](./markdown/a091.md)
-2. [Markdown Task 2](./markdown/a092.md)
-3. [Markdown Task 3](./markdown/a093.md)
-4. [Prolog Task 1](./prolog/blatt9/_empty.pl)
-5. [Prolog Task 2](./prolog/blatt9/_empty.pl)
-6. [Prolog Task 3](./prolog/blatt9/_empty.pl)
+1. Generiere und Teste vs. CLP
+2. SLD-Resolution 'Bundeskanzler:in'
+3. Generiere und Teste (Listen zerteilen und erstellen)
+4. Arithmetische Operation (ggT)
+5. Arithmetische Operation (isPrime)
+6. Das N-Damen-Problem (Constraint Logic Programming)
 ### Blatt 10
-- ...
+1. [Parallelisierung](./markdown/a101.md)
+2. [Parallele Speicherung](./markdown/a102.md)
+3. [Speedup](./markdown/a103.md)
+4. [MergeSort](./java/src/blatt10/MergeSort.java)
+5. [Paralleles Map auf Arrays](./java/src/blatt10/Mapper.java)
+6. [MD5 Hash Reverse](./java/src/blatt10/BruteForce.java)
