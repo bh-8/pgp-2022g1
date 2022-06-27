@@ -70,6 +70,6 @@
 1. [Parallelisierung](./markdown/a101.md)
 2. [Parallele Speicherung](./markdown/a102.md)
 3. [Speedup](./markdown/a103.md)
-4. [MergeSort](./java/src/blatt10/MergeSort.java)
-5. [Paralleles Map auf Arrays](./java/src/blatt10/Mapper.java)
-6. [MD5 Hash Reverse](./java/src/blatt10/BruteForce.java)
+4. MergeSort
+5. Paralleles Map auf Arrays
+6. MD5 Hash Reverse
