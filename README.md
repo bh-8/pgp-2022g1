@@ -1,5 +1,4 @@
 # Programmierparadigmen OvGU SoSe 2022
----
 ### Blatt 1
 1. [Call-by-value vs Call-by-reference](./markdown/a011.md)
 2. [Stackverwaltung](./markdown/a012.md)
